@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页</title>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- 引入Font Awesome字体图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body class="home blog custom-background nav-fixed">
+    <div>
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">A Little Site</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#Introduction">介绍 <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#Note">随记</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false">友情链接 <span class="caret"></span></a>
+                                <ul class="dropdown-menu list-group">
+                                    <a href="https://www.himiku.com/" class="list-group-item">
+                                        himiku.com博客
+                                    </a>
+                                    <a href="https://vcb-s.com/archives/4384" class="list-group-item">
+                                        VCB-Studio
+                                    </a>
+                                    <!-- <li role="separator" class="divider"></li> -->
+                                    <li class="list-group-item disabled">本站参考了以上网站</li>
+                                    <!-- 暂时停用 <li class="list-group-item">因为是小破站，所以是单向友链<br>
+                                    啥时候能被收录也是有出息了</li> -->
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </header>
+
+        <div id="zan-bodyer" style="margin-top: 2em;">
+            <div class="jumbotron">
+                <div class="container">
+                    <div class="row" style="border-bottom: 2px solid #ddd;">
+                        <aside class="col-md-4" id="sidebar">
+                            <aside class="thumbnail" id="Author">
+                                <div class="container">
+                                    <div class="user-card elem-center">
+                                        <div style="margin-top: 1.5em;">
+                                            <img src="https://avatars.githubusercontent.com/u/61227384?v=4"
+                                                class="user-avatar img-responsive img-rounded elem-center">
+                                        </div>
+                                        <br>
+                                        <div class="center-text">
+                                            <h2>Loadstar_lune</h2>
+                                            <h4>现在要向未来出发吗？</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+                            <aside class="thumbnail" id="Project">
+                                <div class="container">
+                                    <div class="center-text">
+                                        <h3>个人项目</h3>
+                                        <p style="font-size: 14px;">C++ STL 自学中（写算法题）</p>
+                                        <p style="font-size: 14px;">Spring Boot 3自学中 （写后端）</p>
+                                        <p style="font-size: 14px;">LaTeX自学中 （排版用）</p>
+                                        <p style="font-size: 14px;">蒟蒻没啥项目了……</p>
+                                    </div>
+                                </div>
+                            </aside>
+                        </aside>
+                        <div class="col-md-8">
+                            <section class="main thumbnail">
+                                <div class="caption" id="Introduction"><!--class="card padding-default"似乎在别的css有用，先注释掉 -->
+                                    <div>
+                                        <img class="cropped-image img-responsive img-rounded elem-center">
+                                    </div>
+                                    <h3 class="lfe-h3 center-text">个人介绍</h3>
+                                    <div class="introduction marked">
+                                        <p style="font-size: 17px; text-indent :1.5em">
+                                            喜欢捕捉美景（虚幻与现实）、折腾技术解决小问题、听点小歌、看点小番的理工男。
+                                        </p>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="thumbnail" id="Note" style="margin-top: 3rem;">
+                                <div class="caption">
+                                    <h3 style="text-indent: 2rem;">手搓Web随记</h3>
+                                    <div class="container">
+                                        <p class="indent-2em" style="font-size: 17px; margin-top: 20px;">
+                                            参考了很多博客站优秀的UI设计，其实大多数博客主也不是前端开发，用的是现成的主题，手搓Web实在是效率极低的方案。作为学习可以，实际应用会很痛苦。而且实际上我写的代码也有些丑陋。
+                                        </p>
+                                        <p class="indent-2em" style="font-size: 17px;">
+                                            这个部分是放置文章的，但这一版还只是非常简单的静态界面，所以几乎没什么可以点的。（咕咕咕）</p>
+                                        <p class="indent-2em" style="font-size: 17px;">
+                                            吐槽：怎么有时class不生效？我想用css改字体大小orz。只能每个后面加style吗？另外这里可以加标签</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail float-up">
+                        <div class="caption">
+                            <div class="container">
+                                <h3>联系作者</h3>
+                                <form id="contact-form" onsubmit="handleSubmit(event)">
+                                    <!-- 此处onsubmit阻止了表单提交 -->
+                                    <!-- 还可使用 action="#" 使表单数据提交到当前页面的URL 而不发生跳转-->
+                                    <!-- 想用form-inline但是出问题了 结果还是用container和row -->
+                                    <!-- 可使用method="post" 以下由comment-form修改来-->
+                                    <div class="container">
+                                        <div class="row">
+                                            <input aria-label="称呼" type="text" name="author" id="author" required=""
+                                                placeholder="称呼(必填)" value="" class="col-md-3 comment-input-margin">
+                                            <input aria-label="电子邮件" type="email" name="mail" id="mail"
+                                                placeholder="电子邮件(必填，将保密)" required="" value=""
+                                                class="col-md-3 comment-input-margin">
+                                        </div>
+                                        <div class="row">
+                                            <p style="margin-top:1rem">
+                                                <textarea aria-label="评论输入框" class="input-area col-md-8" rows="5"
+                                                    name="text" id="comment-textarea" placeholder="在这里输入留言... "
+                                                    style="resize:none;"></textarea>
+                                            </p>
+                                        </div>
+                                        <div style="margin-top: 1em;">
+                                            <button id="contact-submit-button" type="submit"
+                                                class="btn btn-default">提交</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container wide">
+                <section class="center-text">
+                    <p> 2024 •
+                        <span class="brand">A Little Site</span>
+                    </p>
+                    <p>
+                        <!-- 以后或许会弄<a rel="noopener">RSS 订阅</a> • -->
+                        <!-- 换按钮和模态框了<a rel="noopener" id="pic-res-button">图片出处</a> -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target=".modal-picsrc">图片出处</button>
+                        <!-- 关于rel="noopener" -->
+                        <!-- https://developer.mozilla.org/zh-CN/docs/Web/HTML/Attributes/rel#noopener-->
+                        <!-- 如果超链接一开始就会创建其中之一（即有一个适当的 target 属性值），则会创建一个顶级浏览环境，而不是一个辅助浏览环境。换句话说，它使链接的行为如同 window.opener是空的 -->
+                        <br>
+                    </p>
+                    <div class="social-container">
+                        Links:
+                        <a href="https://github.com/QYream" target="_blank" rel="noopener">
+                            <span class="hugeicons--github"></span>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </footer>
+        <!-- 回到顶部按钮 -->
+        <div class="back-to-top" id="btn-back-to-top">
+            <a>
+                <i class="fa fa-arrow-up"></i>
+            </a>
+        </div>
+        <!-- 模态框 -->
+        <div id="pic-res" class="modal fade modal-picsrc" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="mySmallModalLabel">图片出处</h4>
+                    </div>
+                    <div class="modal-body">
+                        <h4>个人介绍上方的图片</h4>
+                        <p>作者：Rella</p>
+                        <p>Pid：62799720</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact-response" class="modal fade modal-contact" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="mySmallModalLabel">感谢留言</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p id="reply"></p>
+                        <p>但由于这一版只是静态页面的初步实现，您的留言未被收集。（咕）</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <!-- <script src="./bootstrap.min.js"></script> -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- 引入jQuery库 -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script> -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
